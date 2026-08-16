@@ -19,16 +19,30 @@ An end-to-end bioinformatics pipeline for cross-tumor proteomic processing, diff
 
 ## 📁 Repository Structure
 
+```text
+Pan-Cancer-Proteomics/
+├── README.md
 ├── data/
-│   ├── raw/                      # Raw CPTAC quantification files (.tsv)
-│   └── processed/                # Normalized pan-cancer matrix
+│   └── processed/
+│       └── normalized_proteomics.csv
 ├── scripts/
-│   ├── 01_preprocessing.R        # Identifier cleaning & cross-cohort matrix alignment
-│   ├── 02_analysis.R             # PCA & limma differential expression
-│   ├── 03_visualization.R        # Volcano plots & hierarchical heatmaps
-│   ├── 04_ml_classifier.py       # Random Forest multi-class model & feature ranking
-│   └── 05_pathway_enrichment.R   # g:Profiler functional enrichment (GO/KEGG/Reactome)
-└── results/                      # Generated figures (.png) and tabular outputs (.csv)
+│   ├── 01_preprocessing.R
+│   ├── 02_analysis.R
+│   ├── 03_visualization.R
+│   ├── 04_ml_classifier.py
+│   └── 05_pathway_enrichment.R
+└── results/
+    ├── pca_plot.png
+    ├── volcano_brca.png
+    ├── heatmap_top50_proteins.png
+    ├── confusion_matrix.png
+    ├── top20_biomarkers.png
+    ├── pathway_enrichment_plot.png
+    ├── de_brca_vs_others.csv
+    ├── de_luad_vs_others.csv
+    ├── de_coad_vs_others.csv
+    ├── top20_biomarker_features.csv
+    └── pathway_enrichment_results.csv
 
 ---
 
