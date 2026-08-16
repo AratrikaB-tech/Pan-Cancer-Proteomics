@@ -1,0 +1,16 @@
+"source","term_id","term_name","p_value","term_size","intersection_size"
+"REAC","REAC:R-HSA-400685","Sema4D in semaphorin signaling",5.4350652638804e-06,24,4
+"GO:BP","GO:0061061","muscle structure development",6.54385598348612e-06,673,9
+"GO:BP","GO:0006936","muscle contraction",2.79650855831212e-05,340,7
+"GO:BP","GO:0003012","muscle system process",0.000135189389758359,428,7
+"REAC","REAC:R-HSA-373755","Semaphorin interactions",0.000315692456026018,64,4
+"REAC","REAC:R-HSA-416572","Sema4D induced cell migration and growth-cone collapse",0.000586956344451818,20,3
+"REAC","REAC:R-HSA-5627123","RHO GTPases activate PAKs",0.000684271082710297,21,3
+"GO:BP","GO:0007517","muscle organ development",0.00125272366798731,362,6
+"REAC","REAC:R-HSA-445355","Smooth Muscle Contraction",0.00624580171181742,43,3
+"KEGG","KEGG:04510","Focal adhesion",0.00973195714027934,202,4
+"KEGG","KEGG:04810","Regulation of actin cytoskeleton",0.0157708566536431,229,4
+"KEGG","KEGG:04144","Endocytosis",0.0213934770257053,248,4
+"GO:BP","GO:1990778","protein localization to cell periphery",0.0265526322837442,355,5
+"GO:BP","GO:2001137","positive regulation of endocytic recycling",0.0376713541401991,8,2
+"KEGG","KEGG:04517","IgSF CAM signaling",0.0424003306942956,297,4
