@@ -51,3 +51,19 @@ Pan-Cancer-Proteomics/
 1. **Preprocessing & Quantile Normalization:**
    ```bash
    Rscript scripts/01_preprocessing.R
+
+2. **Differential Expression & PCA:**
+   ```bash
+   Rscript scripts/02_analysis.R
+
+3. **Generating Visualizations (Heatmaps & Volcano Plots):**
+   ```bash
+   Rscript scripts/03_visualization.R
+
+4. **Multi-Class Machine Learning Classifier:**
+   ```bash
+   python3 scripts/04_ml_classifier.py
+
+5. **Functional Pathway Enrichment Analysis:**
+   ```bash
+   Rscript scripts/05_pathway_enrichment.R
